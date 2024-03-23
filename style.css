@@ -1,0 +1,462 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.twitter-clone{
+    display: flex;
+    flex-wrap: wrap;
+}
+.twitter-clone .left-section{
+    border-right: 1px solid  rgba(128, 128, 128, 0.195);
+    height: 100vh;
+    width: 23%;
+    background-color: white;
+}
+.twitter-clone .left-section .items img{
+    margin-left: -17px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    height: 60px;
+    width: 60px;
+}
+.twitter-clone .left-section .items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 11px;
+    margin-left: 47px;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .left-section .items .material-symbols-outlined{
+    margin-right: 15px;
+    font-size: 1.8rem;
+}
+.twitter-clone .left-section .items button:hover{
+    background-color:  rgb(18, 143, 185);
+}
+.twitter-clone .left-section .items button{
+    height: 3.3rem;
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    background-color: rgb(38, 153, 192);
+    color: white;
+    margin-left: -10px;
+    border: none;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .left-section .items b{
+    margin: 17px 95px;
+}
+.twitter-clone .left-section .profile{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.twitter-clone .left-section .profile .image img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 10px;
+    /* margin-top: 40px; */
+    /* margin-left: 50px; */
+}
+.twitter-clone .left-section .profile .username{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 40px; */
+    margin-left: 10px;
+}
+.twitter-clone .left-section .profile .username p{
+    margin-top: 3px;
+    color: rgba(128, 128, 128, 0.952);
+}
+.twitter-clone .left-section .profile .icon{
+    /* margin-top: 40px; */
+    margin-left: 60px;
+}
+.twitter-clone .left-section #bg:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.twitter-clone .left-section #h:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 115px;
+}
+.twitter-clone .left-section #e:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 140px;
+}.twitter-clone .left-section #n:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 180px;
+}.twitter-clone .left-section #m:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 170px;
+}.twitter-clone .left-section #g:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 115px;
+}.twitter-clone .left-section #l:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 100px;
+}.twitter-clone .left-section #p:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 125px;
+}.twitter-clone .left-section #mo:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 50px;
+    height: 28.8px;
+    width: 115px;
+}
+.twitter-clone .left-section .profile:hover{
+    background-color: rgba(128, 128, 128, 0.278);
+    border-radius: 30px;
+    height: 40px;
+    width: 260px;
+}
+
+
+
+
+
+.twitter-clone .middle-section{
+    height: 100vh;
+    width: 45%;
+    border-right: 1px solid rgba(128, 128, 128, 0.195) ;
+    background-color: rgb(255, 255, 255);
+}
+.twitter-clone .middle-section .head{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.195);
+    align-items: center;
+}
+.twitter-clone .middle-section .head .main{
+    height: 60px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;
+    gap: 30px; */
+    /* border-bottom: 2px solid blue; */
+}
+.twitter-clone .middle-section .head .main1{
+    height: 60px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter-clone .middle-section .head .main2{
+    height: 60px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter-clone .middle-section .head .main .items{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .middle-section .head .main1 .items{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .middle-section .head .main2 .items{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .middle-section .head .main:hover{
+    background-color:rgba(128, 128, 128, 0.278) ;
+}
+.twitter-clone .middle-section .head .main1:hover{
+    background-color:rgba(128, 128, 128, 0.278) ;
+}
+.twitter-clone .middle-section .head .main2:hover{
+    background-color:rgba(128, 128, 128, 0.278) ;
+    border-radius: 100%;
+}
+.twitter-clone .middle-section .box{
+    display: flex;
+    align-content: center ;
+}
+.twitter-clone .middle-section .box img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.twitter-clone .middle-section .box #text{
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .middle-section .box1p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.195);
+}
+.twitter-clone .middle-section .box1{
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    /* border-bottom: 1px solid grey; */
+}
+.twitter-clone .middle-section .box1 .items{
+    margin-left: 15px;
+    color: #67bcf5;
+    height: 25px;
+    width: 25px;
+}
+.twitter-clone .middle-section .box1 .items:hover{
+    background-color: #e8f5fd;
+    border-radius: 100%;
+}
+.twitter-clone .middle-section .box1 #loc{
+    color:#aad9f9 ;
+}
+#buton button{
+    margin-left: 235px;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: #8ecdf7;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .middle-section .show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.195);
+}
+.twitter-clone .middle-section .show:hover{
+    background-color:rgba(128, 128, 128, 0.143)  ;
+}
+.twitter-clone .middle-section .show .showp{
+    color: #67bcf5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.twitter-clone .middle-section .post{
+    display: flex;
+    /* align-items: center; */
+    padding-top: 10px;
+    margin-left:10px;
+}
+.twitter-clone .middle-section .post .img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.twitter-clone .middle-section .post .post-des pre{
+    margin-left: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+.twitter-clone .middle-section .post .post-des span{
+    color: #5cb9f7;
+}
+.twitter-clone .middle-section .post .icon{
+margin-left: 110px;
+}
+.twitter-clone .middle-section .post1p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    align-items: center;
+    padding: 2px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.195);
+}
+.twitter-clone .middle-section .postmain:hover{
+    background-color:rgba(128, 128, 128, 0.143) ;
+}
+.twitter-clone .middle-section .post1p .items span{
+    font-size: 1.2rem;
+    color: gray;
+}
+.twitter-clone .middle-section .post1p .items span:hover{
+    color: #00ba7c;
+    background-color: #def1eb;
+    border-radius: 100%;
+}
+.twitter-clone .middle-section .post1p .items{
+    color: black;
+}
+.twitter-clone .middle-section .post1p .items .text{
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+.twitter-clone .middle-section .post1p .items span{
+    text-align: center;
+}
+#gap{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.twitter-clone .right-section{
+    height: 100vh;
+    width: 30%;
+}
+.twitter-clone .right-section .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color:rgba(128, 128, 128, 0.178) ;
+    margin: auto;
+    border-radius: 50px;
+    height: 3rem;
+    margin-top: 10px;
+}
+.twitter-clone .right-section .head .search input{
+    margin-left: 10px;
+    border: none;
+    height: 2rem;
+    width: 19.5rem;
+    font-size: 1rem;
+    background-color:rgba(128, 128, 128, 0) ;
+}
+.twitter-clone .right-section .head .searchp{
+    color: gray ;
+}
+.twitter-clone .right-section .sub{
+    height: 150px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    background-color:rgba(128, 128, 128, 0.178) ;
+}
+.twitter-clone .right-section .subscribe{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.twitter-clone .right-section .subscribe b{
+    padding-top: 50px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .right-section .subscribe p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .right-section .subscribe #btn{
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+.twitter-clone .right-section .subscribe #btn b{
+    margin-right: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .right-section .suggestion{
+    width: 90%;
+    height: 380px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.178);
+}
+.twitter-clone .right-section .suggestion .headline pre b{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .right-section .suggestion .image{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.twitter-clone .right-section .suggestion .image .items{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.twitter-clone .right-section .suggestion .image .img img{
+    margin-left: 110px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.twitter-clone .right-section .page .items{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.twitter-clone .right-section .page .items .input p{
+    color: rgba(96, 96, 96, 0.971);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.twitter-clone .right-section .page .items .input h4{
+    margin-top: -15px;
+}
+#u{
+    margin-top: -10px;
+}
+.twitter-clone .right-section .page .items .input span{
+    color: rgb(44, 179, 224);
+}
+.twitter-clone .right-section .page .items .icon{
+    margin-left: 160px;
+    color: rgb(122, 122, 122);
+}
